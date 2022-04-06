@@ -1,0 +1,5 @@
+<input class="input" type="text" placeholder="filter..." [(ngModel)]="filter">
+
+<mat-list role="list" *ngFor="let p of projects">
+  <mat-list-item class="project-name" role="listitem" *ngIf="p[0].includes(filter)"><a (click)="onClickProject(p)">{{p[0]}}</a></mat-list-item>
+</mat-list>

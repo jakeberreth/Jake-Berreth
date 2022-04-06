@@ -1,0 +1,18 @@
+.toolbar {
+  background-color: forestgreen;
+  padding: 20px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+button {
+  color: white;
+  background-color: forestgreen;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
